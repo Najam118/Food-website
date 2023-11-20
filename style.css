@@ -342,20 +342,24 @@ color: #ff0000;
 
 }
 footer{
-    background-color: red !important;
+    background-color: black !important;
     padding: 20px;
 }
 footer p{
     text-align: center;
     color: #fff;
 }
-
+/*desk top view*/
 @media (min-width:1024px){
-
+    .logo a{
+        color:green;
 }
+}
+
+/*tablate view*/
 @media (max-width:786px){
     .logo a{
-        color:yellow;
+        color:green;
     }
     .section1Button h1,h2{
         font-size: 2rem;
@@ -367,7 +371,7 @@ footer p{
         height: 150px;
     }
 }
-
+/*mobaile view*/
 @media (max-width:480px){
     
     .logo a{
@@ -398,9 +402,10 @@ footer p{
     font-size: 15px;
 }
 .Aboutbox{
-    width: 100%;
+    width: 80%;
     height: auto;
 }
+
 .Notification h1{
     font-size: 1rem;
 }
